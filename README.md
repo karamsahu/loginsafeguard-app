@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Loginsafeguard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
@@ -29,4 +28,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # loginsafeguard-app
 An application for login with extra safety. 
->>>>>>> 11cb0d6521863734ede4300c022d1ee16a088cea
