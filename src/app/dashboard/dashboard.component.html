@@ -1,8 +1,8 @@
 <!-- user dashboard show on successfull login -->
 <div class="col-sm-12">
-  <div class="jumbotron">
-    <h1 class="display-4">Welcome , User</h1>
-    <p class="lead">You have successfully logged in to our system, after {{loginAttemptsCount}} {{loginAttemptsStatus}} logins attempts</p>
-    <p class="btn btn-primary btn-lg" role="button">Log Out</p>
+  <div class="jumbotron" style="margin-top: 40px">
+    <h1 class="display-4">Welcome , {{username}}</h1>
+    <p class="lead">You have successfully logged in to our system, after {{loginAttemptsCount}}  logins attempts</p>
+    <p class="btn btn-primary btn-lg" role="button" (click)="logout()">Log Out</p>
   </div>
 </div>
